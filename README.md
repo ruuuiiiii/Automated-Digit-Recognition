@@ -24,21 +24,16 @@ Support vector machine with the RBF kernel performed the best compared to the ot
 The confusion matrix for each tested algorithm (with the best hyperparameters) is shown below.
 
 * Figure 1. Confusion Matrix for Perceptron (Accuracy = 0.8500, Precision = 0.8546, Recall = 0.8500).
-* 
 ![Image of Perceptron](https://github.com/ruuuiiiii/Automated-Digit-Recognition/blob/main/Results/Perceptron.png?raw=true)
 
 * Figure 2. Confusion Matrix for Nearest neighbor (Accuracy = 0.9250 precision = 0.9265 recall = 0.9250).
-* 
 ![Image of RF](https://github.com/ruuuiiiii/Automated-Digit-Recognition/blob/main/Results/KNN.png?raw=true)
 
 * Figure 3. Confusion Matrix for Gaussian naïve Bayes (Accuracy = 0.8200 precision = 0.8363 recall = 0.8200).
-* 
 ![Image of RF](https://github.com/ruuuiiiii/Automated-Digit-Recognition/blob/main/Results/GNB.png?raw=true)
 
 * Figure 4. Confusion Matrix for Random forest (Accuracy = 0.9250 Precision = 0.9265 Recall = 0.9250).
-* 
 ![Image of RF](https://github.com/ruuuiiiii/Automated-Digit-Recognition/blob/main/Results/RF.png?raw=true)
 
 * Figure 5. Confusion Matrix for Support vector machine, with C = 10 and kernal = RBF (Accuracy = 0.9650 Precision = 0.9654 Recall = 0.9650).
-* 
 ![Image of SVM](https://github.com/ruuuiiiii/Automated-Digit-Recognition/blob/main/Results/SVM.png?raw=true)
