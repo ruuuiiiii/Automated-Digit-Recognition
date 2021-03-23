@@ -1,4 +1,5 @@
 # Automated-Digit-Recognition
+
 ## Problem formulation
 This project aims to develop an automated digit recognition model using machine learning. Given an image with an unknown digit, the model is expected to automatically recognize the digit in the image and output the corresponding number (i.e., 0 to 9).
 
@@ -16,4 +17,20 @@ A sample of digits from the dataset is shown below:
 ![Image of MINST](https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png)
 
 ## Performance
-Support vector machine with the RBF kernel performed the best compared to the other tested algorithms. The confusion matrix for each test algorithm is shown below.
+The compare the performance, a 3-fold cross-validation with grid search was conducted.
+
+Support vector machine with the RBF kernel performed the best compared to the other tested algorithms.
+
+The confusion matrix for each test algorithm is shown below.
+
+![Image of Perceptron](https://github.com/ruuuiiiii/Automated-Digit-Recognition/blob/main/Results/Perceptron.png?raw=true)
+
+Figure 1. Confusion Matrix for Perceptron (Accuracy = 0.8500, Precision = 0.8546, Recall = 0.8500).
+
+Figure 2. Confusion Matrix for Nearest neighbor (Accuracy = 0.9250 precision = 0.9265 recall = 0.9250).
+
+Figure 3. Confusion Matrix for Gaussian naïve Bayes (Accuracy = 0.8200 precision = 0.8363 recall = 0.8200).
+
+Figure 4. Confusion Matrix for Random forest (Accuracy = 0.9250 Precision = 0.9265 Recall = 0.9250).
+
+Figure 5. Confusion Matrix for Support vector machine, with C = 10 and kernal = RBF (Accuracy = 0.9650 Precision = 0.9654 Recall = 0.9650).
