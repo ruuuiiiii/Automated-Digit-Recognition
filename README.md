@@ -35,5 +35,5 @@ The confusion matrix for each tested algorithm (with the best hyperparameters) i
 * Figure 4. Confusion Matrix for Random forest (Accuracy = 0.9250 Precision = 0.9265 Recall = 0.9250).
 ![Image of RF](https://github.com/ruuuiiiii/Automated-Digit-Recognition/blob/main/Results/RF.png?raw=true)
 
-* Figure 5. Confusion Matrix for Support vector machine, with C = 10 and kernal = RBF (Accuracy = 0.9650 Precision = 0.9654 Recall = 0.9650).
+* Figure 5. Confusion Matrix for Support vector machine (Accuracy = 0.9650 Precision = 0.9654 Recall = 0.9650).
 ![Image of SVM](https://github.com/ruuuiiiii/Automated-Digit-Recognition/blob/main/Results/SVM.png?raw=true)
