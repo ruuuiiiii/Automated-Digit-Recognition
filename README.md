@@ -17,7 +17,7 @@ A sample of digits from the dataset is shown below:
 ![Image of MINST](https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png)
 
 ## Performance
-The compare the performance, a 3-fold cross-validation with grid search was conducted.
+To compare the performance, a 3-fold cross-validation with grid search was conducted.
 
 Support vector machine with the RBF kernel performed the best compared to the other tested algorithms.
 
